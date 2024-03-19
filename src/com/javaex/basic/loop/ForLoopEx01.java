@@ -18,6 +18,9 @@ public class ForLoopEx01 {
 			System.out.println(dan + " * " + i + " = " + dan * i);
 		}
 		
+		// For문의 무한루프
+//		for( ; ; ;) {}
+		
 		sc.close();
 	}
 }
