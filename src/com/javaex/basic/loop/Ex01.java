@@ -50,5 +50,20 @@ public class Ex01 {
 				break;
 			}
 		}
+		num=0;
+		// 이거면 되네
+		while(true) {
+			num++;
+			if((num % 6) == 0 && (num % 14 == 0)) {
+				System.out.println("\n" + num);
+				break;
+			}
+		}
+		
+		System.out.println();
+		for(int i=1; i<=6; i++) {
+			int ran = (int)(Math.random()*45) + 1;
+			System.out.printf(ran+"\t");
+		}
 	} // end main
 }
