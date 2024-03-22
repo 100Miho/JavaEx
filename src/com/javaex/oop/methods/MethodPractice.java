@@ -1,6 +1,5 @@
 package com.javaex.oop.methods;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MethodPractice {
@@ -55,7 +54,7 @@ public class MethodPractice {
 	}
 	
 //	문제 2. 1부터 10 까지의 숫자를 콘솔에 출력하는 메서드를 작성하세요.
-	private static void printNumbers(){
+	private static void printNumbers() {
 		for(int i=1; i<=10; i++) {
 			System.out.print(i + " ");
 		}
