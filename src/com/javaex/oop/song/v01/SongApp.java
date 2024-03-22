@@ -28,8 +28,7 @@ public class SongApp {
 		song[2].setTrack(4);
 		song[2].setComposer("장범준");
 		
-		for(Song val : song) {
+		for(Song val : song)
 			val.showInfo();
-		}
 	}
 }
