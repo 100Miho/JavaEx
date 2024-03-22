@@ -1,6 +1,6 @@
 package com.javaex.oop.methods;
 
-public class MethodEx {
+public class MethodEx01 {
 	public static void main(String[] args) {
 		// 매개변수 X , 리턴 X
 		printMessage();
@@ -42,17 +42,20 @@ public class MethodEx {
 			System.out.println("0으로는 나눌 수 없습니다.");
 			return;
 		}
-		System.out.printf("%d / %d = %d%n", num01, num02, num01/num02);
 		// 리턴 값이 없어도 리턴 가능
 		// 	ㄴ 남은 코드를 더이상 수행하지 않고 제어를 돌려줄 때
+		System.out.printf("%d / %d = %d%n", num01, num02, num01/num02);
 	}
 	
+	
+	// 메서드 오버로드
 	public static double getSum(double num01, double num02) {
 		System.out.println("\n매개변수가 있고, 리턴도 있는 메서드");
 		return num01 + num02;
 	}
 	
-	private static double getSum(double num01, double num02, double num03) {
+	public static double getSum(double num01, double num02, double num03) {
+		System.out.println("\n매개변수가 있고, 리턴도 있는 메서드를 오버로드 함");
 		return num01 + num02 + num03;
 	}
 }

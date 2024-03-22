@@ -5,12 +5,4 @@ public class Goods {
 	// Field (맴버변수)
 	private String name;
 	private int price;
-	
-	// 생성자
-	public Goods() {}
-	
-	public Goods(String name, int price) {
-		this.name = name;
-		this.price = price;
-	}
 }
