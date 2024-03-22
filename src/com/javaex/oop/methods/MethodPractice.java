@@ -62,7 +62,7 @@ public class MethodPractice {
 	
 //	문제 3. 0~100 사이의 랜덤한 정수를 반환하는 메서드를 작성하세요.
 	private static int getRandomNumber() {
-		int num = (int)(Math.random()*100) + 1;
+		int num = (int)(Math.random()*101);
 		return num;
 	}
 	
