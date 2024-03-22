@@ -6,7 +6,11 @@ public class MethodPractice {
 	public static void main(String[] args) {
 		printHelloMethod();
 		printNumbers();
-		System.out.println("\n"+getRandomNumber());
+		
+		//System.out.println("\n"+getRandomNumber());
+		int rnd = getRandomNumber();	// red =/= num(random)
+		System.out.println("\n" + rnd);
+		
 		System.out.println(getSum());
 
 		Scanner sc = new Scanner(System.in);
@@ -77,13 +81,15 @@ public class MethodPractice {
 	
 //	문제 5. 정수를 하나 받아 그 정수가 짝수인지 홀수인지를 콘솔에 출력하는 메서드를 작성하세요.
 	private static void printOddEven(int num) {
-		if(num  == 0) {
-			System.out.println(0);
-		} else if(num % 2 == 0) {
-			System.out.println("짝수");
-		} else {
-			System.out.println("홀수");
-		}
+//		if(num  == 0) {
+//			System.out.println(0);
+//		} else if(num % 2 == 0) {
+//			System.out.println("짝수");
+//		} else {
+//			System.out.println("홀수");
+//		}
+		// 삼항연산자
+		System.out.println((num == 0) ? 0 : ((num%2 == 0) ? "짝수" : "홀수"));
 	}
 	
 //	문제 6. 문자열을 하나 받아 그 문자열의 길이를 콘솔에 출력하는 메서드를 작성하세요.
