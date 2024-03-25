@@ -1,4 +1,4 @@
-package com.javaex.opp.tv.v01;
+package com.javaex.oop.tv.v01;
 
 public class TV {
 	private int channel;
