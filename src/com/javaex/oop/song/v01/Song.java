@@ -1,4 +1,5 @@
 package com.javaex.oop.song.v01;
+// v01 - 필드, Setter, Getter, 일반메서드
 
 public class Song {
 	private String title;
@@ -8,6 +9,7 @@ public class Song {
 	private int year;
 	private int track;
 	
+	// Getter, Setter
 	public String getTitle() {
 		return title;
 	}
