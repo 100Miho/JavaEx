@@ -1,6 +1,7 @@
 package com.javaex.oop.shape.v02;
 
-public class Circle extends Shape {
+// 인터페이스 내의 모든 추상메서드는 반드시 구현해야 한다.
+public class Circle extends Shape implements Drawable {
 	private double radius;
 	
 	Circle(int x, int y, double radius){

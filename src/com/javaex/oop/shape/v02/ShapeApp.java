@@ -8,5 +8,8 @@ public class ShapeApp {
 		
 		Rectangle rectangle = new Rectangle(10, 20, 100, 500);
 		rectangle.draw();
+		
+		Point point = new Point(100, 200);
+		point.draw();
 	}
 }

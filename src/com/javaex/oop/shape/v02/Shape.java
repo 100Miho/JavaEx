@@ -16,6 +16,6 @@ public abstract class Shape {
 	
 	// 추상 메서드
 //			-> 추상 클래스를 상속받은 클래스에서 반드시 구현해야 한다.
-	public abstract void draw();
+//	public abstract void draw();
 	public abstract double area();
 }
