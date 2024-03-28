@@ -11,5 +11,11 @@ public class ShapeApp {
 		
 		Point point = new Point(100, 200);
 		point.draw();
+		
+		Drawable objs[] = new Drawable[] {rectangle, circle, point};
+		
+		for(Drawable obj : objs) {
+			obj.draw();
+		}
 	}
 }
