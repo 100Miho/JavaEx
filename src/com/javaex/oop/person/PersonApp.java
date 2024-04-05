@@ -1,4 +1,4 @@
-package com.javaex.opp.person;
+package com.javaex.oop.person;
 
 public class PersonApp {
 	public static void main(String[] args) {
