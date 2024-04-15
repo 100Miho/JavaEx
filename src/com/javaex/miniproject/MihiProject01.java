@@ -122,6 +122,8 @@ public class MihiProject01 {
 				System.out.println("********************************************");
 				System.out.println("*                감사합니다                *");
 				System.out.println("********************************************");
+				
+				sc.close();
 				break outerLabel;
 			default:
 				System.out.println("[ 다시 입력해 주세요. ]");

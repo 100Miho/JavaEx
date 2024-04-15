@@ -44,6 +44,7 @@ public class Person {
 		pw.println(name + "," + phone + "," + tel);
 	}
 	
+	@Override
 	public String toString() {
 		return num + ". " + name + " " + phone + " " + tel;
 	}
