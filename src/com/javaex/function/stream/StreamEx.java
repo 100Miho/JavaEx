@@ -61,16 +61,16 @@ public class StreamEx {
 		lst.stream().forEach(obj -> System.out.println(obj));
 	}
 	
-	private static void testFilter(int[] arr, List<Student> lst) {
-		// arr에서 점수가 70점 이상인 것만 추출
-		System.out.println("========== Stream Filter ==========");
-		System.out.println(Arrays.toString(arr));
-		
-		Arrays.stream(arr).filter(n -> n >= 70).forEach(n -> System.out.println(n + " "));;
-		
-		// lst에서 평균 점수가 70점 이상인 것만 추출
-		lst.stream().filter(obj -> obj.getAverate() >= 70).forEach(System.out::println.);
-	}
+//	private static void testFilter(int[] arr, List<Student> lst) {
+//		// arr에서 점수가 70점 이상인 것만 추출
+//		System.out.println("========== Stream Filter ==========");
+//		System.out.println(Arrays.toString(arr));
+//		
+//		Arrays.stream(arr).filter(n -> n >= 70).forEach(n -> System.out.println(n + " "));;
+//		
+//		// lst에서 평균 점수가 70점 이상인 것만 추출
+//		lst.stream().filter(obj -> obj.getAverate() >= 70).forEach(System.out::println.);
+//	}
 	
 	private static void testMap(int[] arr) {
 		System.out.println("========== Stream Map ==========");
